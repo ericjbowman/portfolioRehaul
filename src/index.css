@@ -1,7 +1,4 @@
 body {
-  background-image: url('background-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 0;
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
@@ -48,6 +45,41 @@ code {
   width: 54vw;
 }
 
+header {
+  background-image: url('background-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#projects {
+  height: 500px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 46vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  color: #132354;
+  font-size: 20px;
+  margin: 10px;
+  transition: 0.3s;
+  height: 50px;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .name {
   width: 90%;
   height: auto;
@@ -78,7 +110,7 @@ code {
   justify-content: center;
   align-items: center;
   width: 200px;
-  height: 60px;
+  height: 62px;
   transition: 0.3s;
   animation-name: slideInLeft;
   animation-duration: 1s;
