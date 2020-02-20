@@ -63,6 +63,12 @@ code {
   font-size: 30px;
   color: #132354;
   margin: 20px;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  /* animation-timing-function: ease-out; */
+  transform: translateX(-200%);
 }
 
 .btn {
@@ -74,6 +80,12 @@ code {
   width: 200px;
   height: 60px;
   transition: 0.3s;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  /* animation-timing-function: ease-out; */
+  transform: translateX(-200%);
 }
 
 .btn-container {
@@ -88,6 +100,15 @@ code {
 
 .text {
   font-size: 20px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /* @keyframes colorize {
