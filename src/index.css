@@ -6,8 +6,49 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.line {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+  animation: dash 2.5s linear forwards;
+}
+.line2 {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation: dash 1.5s linear forwards;
+}
+.line3 {
+  stroke-dasharray: 130;
+  stroke-dashoffset: 130;
+  animation: dash 1.5s linear forwards;
+}
+.line4 {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: dash 1.5s linear forwards;
+}
+.text-container {
+  animation: colorize 4s linear forwards;
+}
+.delay {
+  animation-delay: 0.5s;
+}
+.delay2 {
+  animation-delay: 1s;
+}
+.name {
+  margin-top: 10px;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+/* @keyframes colorize {
+  to {
+    fill: rgb(255,255,0);
+  }
+} */
