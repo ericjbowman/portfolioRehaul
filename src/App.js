@@ -281,11 +281,11 @@ function App() {
           </span>
         </nav>
       </header>
-      <main>
+      {/* <main>
         <div id="projects">
 
         </div>
-      </main>
+      </main> */}
     </div>
   );
 }
