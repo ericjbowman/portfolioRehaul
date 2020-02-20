@@ -21,6 +21,22 @@ function App() {
               stroke="#132354"
               strokeMiterlimit="10"
               strokeWidth="3"
+              d="M1.5 1.5H225.1V101.5H1.5z"
+              className="text-container"
+            ></path>
+            <path
+              fill="none"
+              stroke="#132354"
+              strokeMiterlimit="10"
+              strokeWidth="3"
+              d="M1.599 101.501H372.399V201.501H1.599z"
+              className="text-container"
+            ></path>
+            <path
+              fill="none"
+              stroke="#132354"
+              strokeMiterlimit="10"
+              strokeWidth="3"
               d="M39.4 41.066L63 41.066"
               className="line"
             ></path>
@@ -167,22 +183,6 @@ function App() {
               strokeWidth="3"
               d="M48.583 151.496L63.164 151.496"
               className="line"
-            ></path>
-            <path
-              fill="none"
-              stroke="#132354"
-              strokeMiterlimit="10"
-              strokeWidth="3"
-              d="M1.5 1.5H225.1V101.5H1.5z"
-              className="text-container"
-            ></path>
-            <path
-              fill="none"
-              stroke="#132354"
-              strokeMiterlimit="10"
-              strokeWidth="3"
-              d="M1.599 101.501H372.399V201.501H1.599z"
-              className="text-container"
             ></path>
             <path
               fill="none"
