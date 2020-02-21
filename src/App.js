@@ -261,9 +261,37 @@ function App() {
           {/*<p className="occupation">Certified Personal Trainer</p>
           <p className="occupation">Doctor of Music</p>*/}
           <div className="btn-container">
-            <div className="btn">
-              <p className="text">Resume</p>
-            </div>
+          <svg
+            className="resume-btn"
+            xmlns="http://www.w3.org/2000/svg"
+            width="153"
+            height="64.8"
+            x="0"
+            y="0"
+            version="1.1"
+            viewBox="0 0 153 64.8"
+            xmlSpace="preserve"
+          >
+            <path
+              className="resume-btn-space"
+              fill="rgba(255, 255, 255, 0.7)"
+              stroke="#132354"
+              strokeMiterlimit="10"
+              strokeWidth="3"
+              d="M1.5 1.5H151.5V63.3H1.5z"
+            ></path>
+            <path fill="none" d="M13.75 22.4H139.25V37.65H13.75z"></path>
+            <text
+              className="resume-btn-text"
+              fontFamily="monospace"
+              fontSize="24"
+              fill="rgba(19,35,84,1)"
+              backgroundColor="green"
+              transform="translate(33.293 37.112)"
+            >
+              Resume
+            </text>
+          </svg>
           </div>
         </div>
         <nav>
